@@ -3,24 +3,72 @@
 }
 .quickOrderHeader{
     text-align: center;
+    padding-top: 30px;
 
+    font-size: 2rem;
+    line-height: 2rem;
+    letter-spacing: .28rem;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    color:  var(--primary-title-text);
+    text-transform: uppercase;
+    margin: 0 auto 1.5rem;
 } 
 .quickOrderFormContainer{
     text-align: center;
     vertical-align: middle;
 }
-    /* .quickOrderLabel{
+.quickOrderLabel{
+    padding-right: 10px;
+    font-family: Roboto,sans-serif;
+    font-size: 1rem;
+    padding-top: 8px;
 
-    }
+
+}
+    /* 
     .quickOrderInput {
-    }
-    .quickOrderButton{
-        
+    }*/
+.quickOrderButton{
+    margin-top: 30px;
 
-    }  */
+    background-color: #000;
+    color: #fff;
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+   
+    vertical-align: middle;
+    text-transform: uppercase;
+    line-height: 2.5rem;
+    letter-spacing: .2rem;
+    padding: 0 3rem;
+    height: 100%;
+    border: 1px solid #000;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}  
 
-    .quickOrderContent{
-        display: flex;
-        width: 100%;
-        justify-content: center;
-    }
+.quickOrderButton:hover{
+    background-color:#fff ;
+    color: #000;
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+   
+    vertical-align: middle;
+    text-transform: uppercase;
+    line-height: 2.5rem;
+    letter-spacing: .2rem;
+    padding: 0 3rem;
+    height: 100%;
+    border: 1px solid #000;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.quickOrderContent{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
