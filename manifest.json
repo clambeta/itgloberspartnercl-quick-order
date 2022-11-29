@@ -3,7 +3,7 @@
   "name": "quick-order",
   "version": "0.0.1",
   "title": "Compra rápida",
-  "description": "Input que permitirá una compra rápida en mi sitio VTEX IO",
+  "description": "Input que permitirá una compra rápida Naf Naf",
   "builders": {
     "react": "3.x",
     "messages": "1.x",
@@ -11,7 +11,9 @@
     "store": "0.x"
   },
   "dependencies": {
-    "vtex.checkout-graphgl": "0.x"
+    "vtex.checkout-graphql": "0.x",
+    "vtex.search-graphql": "0.x",
+    "vtex.css-handles": "0.x"
   },
   "registries": [
     "smartcheckout"

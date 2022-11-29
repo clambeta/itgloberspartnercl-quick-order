@@ -1,0 +1,26 @@
+.quickOrderContainer{
+    width: 100%;
+}
+.quickOrderHeader{
+    text-align: center;
+
+} 
+.quickOrderFormContainer{
+    text-align: center;
+    vertical-align: middle;
+}
+    /* .quickOrderLabel{
+
+    }
+    .quickOrderInput {
+    }
+    .quickOrderButton{
+        
+
+    }  */
+
+    .quickOrderContent{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
